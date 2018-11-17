@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Toggle Icon button</title>
+<script> src="https://material.io/tools/icons/"
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+import {MDCRipple} from '@material/ripple';
+
+const iconButtonRipple = new MDCRipple(document.querySelector('.mdc-icon-button'));
+iconButtonRipple.unbounded = true;
+
+</script>
+</head>
+<body>
+    <!-- You can download icons from https://material.io/icons/-->
+	<img id="switch" src="@material/switch/mdc-switch"/>
+	
+<button id=".material-icons"class="mdc-icon-button material-icons" onclick="toggle(this)">favorite</button>
+
+<script>
+function toggle(element) {
+	//Please complete
+}
+</script>	
+</body>
+</html>
